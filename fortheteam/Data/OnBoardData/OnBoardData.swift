@@ -10,21 +10,21 @@ import SwiftUI
 
 let onboardData: [OnBoard] = [
   OnBoard(
-      title: "OnBoard.Header.1",
-      headline: "OnBoard.Spec.1",
-      image: "onboard_ikon_1",
-      gradientColors: [Color.white, Color.white]
+    title: "OnBoard.Header.One",
+    headline: "OnBoard.Spec.One",
+    image: "onboard_ikon_1",
+    gradientColors: [Color.white, Color.white]
     ),
-    OnBoard(
-      title: "OnBoard.Header.2",
-      headline: "OnBoard.Spec.2",
-      image: "onboard_ikon_2",
-      gradientColors: [Color.white, Color.white]
+  OnBoard(
+    title: "OnBoard.Header.Two",
+    headline: "OnBoard.Spec.Two",
+    image: "onboard_ikon_2",
+    gradientColors: [Color.white, Color.white]
     ),
-    OnBoard(
-      title: "OnBoard.Header.3",
-      headline: "OnBoard.Spec.3",
-      image: "onboard_ikon_3",
-      gradientColors: [Color.white, Color.white]
+  OnBoard(
+    title: "OnBoard.Header.Three",
+    headline: "OnBoard.Spec.Three",
+    image: "onboard_ikon_3",
+    gradientColors: [Color.white, Color.white]
     )
 ]

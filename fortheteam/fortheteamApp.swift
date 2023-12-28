@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct fortheteamApp: App {
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isOnboarding {
+                OnBoardingView()
+            } else {
+                LoginScreen()
+            }
         }
     }
 }

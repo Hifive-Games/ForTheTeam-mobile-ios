@@ -10,8 +10,8 @@ import SwiftUI
 
 struct OnBoard: Identifiable {
   var id = UUID()
-  var title: String
-  var headline: String
+  var title: LocalizedStringKey
+  var headline: LocalizedStringKey
   var image: String
   var gradientColors: [Color]
 }
